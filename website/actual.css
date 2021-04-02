@@ -1,0 +1,230 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: times new roman, Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-left: 0px;
+
+}
+
+header .main-header {
+  color: black;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 30px;
+  padding: 11.5%;
+}
+
+ h2 {font-family: 'Dancing Script', cursive;}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  justify-content:space-around;
+  overflow: hidden;
+  list-style: none;
+  background-color:white;
+  text-align: center;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+
+
+nav ul a {
+	  color: black;
+    width:24%;
+    text-align: center;
+    background-color: white;
+    line-height: 5%;
+    padding: 2.0%;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  nav a:hover
+{
+  color: white;
+  background-color:black;
+  border-radius: 0px;
+  border-right: 0.2% solid black;
+
+}
+
+.light-mode nav a:hover
+{ border-right: 0.2% solid black;
+  color: white;
+  background-color:black;
+  border-radius: 0px;
+  border-left: 0.2% solid black;
+  border-right: 0.2%solid black;
+
+}
+
+.light-mode p ,h2,h3,h1
+{color: black;}
+
+
+.light-mode .headnav
+{background-color: white;}
+
+
+.light-mode .headnav a
+{color: black;}
+
+.tabcontent, .tabcontent1
+
+div
+{margin-bottom: 0px;
+padding-bottom: 0px;}
+
+
+.tabcontent h2 , h2 
+{text-align: center;
+font-size: 2.35vw;
+}
+
+p
+{margin-left: 7%;
+margin-right: 7%;
+margin-bottom: 8%;
+padding: 5%;
+display: justify;
+text-align:center;
+font-size:1vw;}
+
+.tabcontent p , .tabcontent1 p
+{padding: 3%;
+display: justify;
+text-align:center;
+font-size:1vw;}
+
+.w3-wide
+{font-size:1vw;}
+
+.first h2
+{font-family: verdana;}
+
+h2
+{text-align: center;}
+
+.sexy_line
+{ 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, white));
+}
+
+
+
+ .imggg
+{ 
+
+border-radius: 50%;
+width: 80%;
+margin-top: 14%;
+margin-left: 5%;}
+
+/* Ensure proper sizing */
+
+/* Column container */
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.side, .main
+{display: inline-block;}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+
+  
+  flex: 20%; /* Set the width of the sidebar */
+   /* Grey background color */
+   }
+
+ /* Some padding */
+
+  /* Main column */
+.main
+{ 
+  
+  flex: 65%; /* Set the width of the main content */
+  /* White background color */
+   padding-right: 5%;
+   padding-top:5%;/* Some padding */
+  
+}
+
+.main h2
+{text-align: center;}
+
+.main p
+{text-align: center;}
+
+
+.buttontop .topbutton {
+  color: white;
+  background-color: grey; }
+
+
+.previous-round {
+  text-align: center;
+  width: 5%;
+  background-color: #CCCCCC;
+  color: black;
+  margin-left: 42%;
+  float: left;
+  border-radius: 60%;
+  text-decoration: none;
+}
+
+
+
+.next-round {
+  text-align: center;
+  width: 5%;
+  background-color: #CCCCCC;
+  color: black;
+  margin-right: 41%;
+  float: right;
+  border-radius: 60%;
+  text-decoration: none;
+}
+
+
+
+footer
+{ 
+  margin-top: 0px;
+text-align: center;
+font-size: 25px;
+padding: 15px; 
+}
+
+footer a
+{
+ color:white;
+ padding: 1%;
+}
+.Copyrights
+{
+font-size:1vw;}
+
+
+
+
+
+
+
+
+
+ 

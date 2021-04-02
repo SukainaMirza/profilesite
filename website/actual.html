@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="actual.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lora&display=swap" rel="stylesheet">
+
+    <!--this comes for the vertical navbar-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Sukaina mirza </title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Font_Awesome_5_solid_user-circle.svg/991px-Font_Awesome_5_solid_user-circle.svg.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+
+<style>
+
+ 
+body
+{
+  background-image: url("marble.jpg");
+  background-color: #FAFAFA ;
+  background-size: contain;
+}
+h2 {font-family: 'Dancing Script', cursive;}
+
+h1
+{font-family: 'Inconsolata', monospace;
+font-family: 'Lora', serif;
+color: #4C4C4C}
+
+.first 
+{
+background-image: url("bg1.jpg");
+background-size: cover;
+border-image-width: 100%;
+background-repeat: no-repeat;
+background-color: #E8D7CB;}
+
+
+.second
+{background-image: url("marble.jpg");
+background-size: cover;
+background-color: #FAFAFA ;}
+
+.third
+{background-image: url("grain.jpg");
+background-size: cover;
+background-color:#DFDFDF ;}
+
+
+.beforefooter
+{background-image:url("marble.jpg");
+background-color: #FAFAFA;}
+
+.footer
+{background-image:url("k1.jpg");
+  background-color: #E8D7CB; } 
+
+}
+
+
+p, h2
+{color: white;}
+
+ header .main-header
+{
+  background-image: url("mainheader.jpg");
+  background-color: #F8F8F8 ;
+  background-size: 100%;
+  width: 100%;
+  height: 20%;
+  background-color: #FAFAFA;
+
+}
+
+.light-mode 
+ {
+
+  color: black;
+
+}
+
+.light-mode .first
+ {
+
+  color: black;
+
+}
+
+.dark-mode 
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+.dark-mode .first
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+
+.light-mode p
+ {
+
+  color: black;
+
+}
+
+.dark-mode p
+{ 
+
+  color:white;
+}
+.light-mode h2
+ {
+
+  color: black;
+
+}
+
+.dark-mode h2
+{ 
+
+  color:white;
+}
+
+.light-mode .second
+ {
+
+  color: black;
+
+}
+
+.dark-mode .second
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+
+.light-mode .third
+ {
+
+  color: black;
+
+}
+
+.dark-mode .third
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+
+.light-mode .beforefooter
+ {
+
+  color: black;
+
+}
+
+.dark-mode .beforefooter
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+
+.light-mode footer
+ {
+
+  color: black;
+
+}
+
+.dark-mode footer
+{ 
+  background-image: url("star.jpg");
+  background-color: black;
+  color:white;
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+<body class="w3-light-grey" style="font-size: 1.5vw;">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/snapmirza/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.snapchat.com/add/snapmirzaxo" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="mailto:mirza.sukaina@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+  <a href="https://twitter.com/?lang=en" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/sukaina-mirza/" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#Contact"
+  onclick="openPage('Contact', this, 'black')"
+  class="w3-bar-item w3-button w3-right"><i class="fa fa-comment"></i></a>
+</div> <!-- ensure you use fa instead of others,not working -->
+
+<header>
+  <div class="main-header">
+       <h1 style="font-size: 4vw;">Sukaina Mirza</h1>
+ 
+</header>
+
+<nav>
+      
+         <ul>
+    
+      <a href="#home"
+         class="tablink" 
+         onclick="openPage('Home', this, '#CCCCCC')" id="defaultOpen">Home</a> 
+      <a href="#About me"
+         class="tablink" 
+         onclick="openPage('About me', this, '#CCCCCC')">About </a> 
+      <a href="#Writings"
+         class="tablink" 
+         onclick="openPage('Writings', this, '#CCCCCC')">Writings</a>
+      <a href="#Contact" 
+         class="tablink" 
+         onclick="openPage('Contact', this, '#CCCCCC')">Contact</button></a> &nbsp
+         </ul>
+</nav>
+
+
+<body>
+
+    
+      
+      <div id="Home"
+           class="tabcontent" style="font-size:1vw;">
+
+
+<div class="first" >
+     
+    
+    <h2 style="font-size: 2.35vw; color:grey; font-family: 'Dancing Script', cursive;" ><br> Veni Vidi Vici </h2>
+ <br>
+ <br>
+
+ 
+
+       
+    </div>
+
+
+<div class="second">
+<br>
+<br>
+<h2 style="font-size: 2.35vw;">My skills</h2>
+<div style="margin-left: 20%" >
+<br>
+
+    <div class="w3-wide">Public Speaking</div>
+
+    <div class="w3-white" style="width: 60%; height: 20px;">
+      <div class="w3-dark-grey" style="height:28px;width:90%;height: 20px;"></div>
+      
+    </div>
+    <br>
+
+    <div class="w3-wide">Web Design</div>
+    <div class="w3-white"style="width: 60%;height: 20px;">
+      <div class="w3-dark-grey" style="height:28px;width:75%;height: 20px;"></div><br>
+    </div>
+    <br>
+    <div class="w3-wide">Marketing</div>
+    <div class="w3-white"style="width: 60%;height: 20px;">
+      <div class="w3-dark-grey" style="height:28px;width:80%; height: 20px;"></div>
+    </div><br>
+
+</div>
+
+
+
+<br>
+<br>
+<!-- 
+
+    <div class="w3-row w3-center w3-section w3-blue"
+    style="margin-left: 15% ; margin-right: 20%; max-height: 40px;
+height: 100%;font-size:1.5vw; padding: 0%;">
+
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge" style="color: red;"> <i class="fas fa-chess fa-2x"></i>
+          </span><br>
+        
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"> <i class="fas fa-swimmer fa-2x"></i>
+       </span><br>
+
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"><i class="fas fa-table-tennis fa-2x"></i>
+      </span><br>
+
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge" ><i class="fas fa-blog fa-2x"></i>
+        </span><br>
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey  w3-section" style="margin-left: 15% ; margin-right: 20%;">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  
+<br>
+    <br> </div>  -------till here ----------------------------------------  -->
+
+
+<!--  
+<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-" style="display: inline-block;">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-"style="display: inline-block;"><i class="fas fa-table-tennis fa-2x"></i></span><br>
+        <i class="fas fa-table-tennis fa-2x"></i>
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-"style="display: inline-block;">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-"style="display: inline-block;">150+</span><br>
+        Meetings
+      </div>
+    </div>
+ -->
+
+<div class="third"> <div class="sexy_line"></div>
+  <div class="tabcontent1">
+    
+    </div>
+      <h2 style="font-size: 2.35vw;"> Education </h2>
+<br>
+          <p style="font-size: 1.2vw; text-align: left; padding:0%;">
+Birla Institute of Technology and Science- Dubai, UAE<br>
+2018 - present<br>
+Pursuing Bachelor of Technology in Computer Science and Engineering<br>
+<br>
+Our Own English High School- Dubai, UAE<br>
+2004 - 2018<br>
+10th class GPA on scale of 10 : 10<br>
+12th class Percentage: 87% 
+
+ </span></p>
+
+
+
+
+
+      <div class="sexy_line"></div></div>
+
+
+
+
+    
+
+<div class="beforefooter">
+
+    
+<h2 style="font-size: 2.35vw;"> Work Experience </h2>
+      
+      <p style="font-size: 1.2vw; text-align: left; padding:0%;" >
+
+      Khansaheb LLC - IT Intern<br>
+30th June 2019 –25th July 2019 <br>
+<br>
+StarB2B - Sales and Marketing Intern <br>
+12th June 2020 -5th August 2020<br>
+
+</p>
+
+
+
+      <div class="buttontop" >
+      <a href="#Home" class="topbutton" size="20px" style="margin-left:45%; text-decoration: none; width:25%;text-align: center; padding: 0.9%"> &nbsp<i class="fa fa-arrow-up w3-margin-right"></i>To the top &nbsp</a></div>
+      <br>
+      <br>
+ </div> 
+ </div>   
+
+</section>
+
+
+</div>
+<section>
+<div id="About me" class="tabcontent">
+
+           <div class="row">
+               <div class="side">       
+            
+               
+                
+                   <p></p>
+                   <h2> &nbsp </h2>
+                   <img class="imggg" src="mypic.jpg"alt="Image" >
+
+              
+               
+               </div>
+               <div class="main">
+                  <h2 style="font-size: 2.4vw;">About Me!</h2>
+               
+               
+                     <p>
+                      Hey! I'm Sukaina Mirza, a 21 year old residing in Dubai, UAE.
+                      Currently a 3rd year computer science student at BITS Pilani Dubai.
+                      Covid hit all of us like a truck, cetrainly, therin came the phase of being productive in your quarantine, which led me to learn web development. this website is created to have an active blog-profile-site and to further my skills.
+ 
+    <br><br><br>
+                 I shall keep updating my writings and blog, and go big on the word clichè; And well, god up there is one hell of a writer, so I’m pretty sure I'll have something worth your while.
+
+<br>
+<br>
+               
+
+               </p>
+               <br>
+               
+             </div>
+          </div>
+        
+    </div>
+
+
+<div id="Writings"
+         class="tabcontent">
+
+        
+
+      <br>
+        <h2 style="font-size: 2.35vw;"> We're Free, Are We? </h2>
+         <p> Yes, a milestone has been achieved <br>
+             We, the human race, are free <br>
+             free to live, love and die,<br>
+             die, within your boundary.
+             <br>
+             <br>
+               <br>
+             certainly, we are free to dress,<br>
+              dress the way you seem fit <br>
+              though watch out young woman, <br>
+              your character just maybe judged on the size of that slit
+              <br>
+              <br>
+               <br>
+              Yes, the human race is free <br>
+              and why wouldnt it be? <br>
+              human basic rights have been imposed, <br>
+              yet the other day,a maiden was used and disposed
+              <br>
+              <br>
+               <br>
+              With all respect young man,
+               we are given more freedom than our past race<br>
+               but whats the point of this freedom,<br>
+               for shackles tighten when we quicken our pace?<br>
+               better yet, these shackles are not physical, <br>
+               they come in forms of power, family or customs.<br>
+               where consequences stop us to look in the eye of the oppressor<br>
+               for what he may bring upon this system
+               <br>
+               <br>
+               <br>
+               if this my friend is what freedom is,<br>
+               then yet again i ask<br>
+               I'd want to give captivity a try,<br>
+               for what we may have misjudged meanings<br>
+               in our attempt to reach the sky </p>
+
+<br>
+      <nav>
+      
+         
+        <a href="#Writings" 
+          id="nextbox" class="previous-round" 
+          onclick="openPage('Writings', this, 'white')">&#8249;</a>  &nbsp &nbsp  &nbsp &nbsp
+
+          <a href="#next" 
+          id="nextbox" class="next-round" 
+          onclick="openPage('next', this, 'white')">&#8250;</a>
+
+    
+  </nav>
+</div>
+
+               
+
+               
+
+       <div id="next" 
+                    class="tabcontent">
+<br>
+                 <h2 style="font-size: 2.35vw;"></h2>
+
+                    <p> Yeh duniya nakli hai, <br>
+                kehte hai sab <br>
+              fir kyun, hum isay paa na sakey <br> <br>
+
+              kudhrat ka khel to dekhiye, <br>
+              aakhey jahan tak pahoochein<br>
+              de chuka ha rab<br>
+              fir kyun en daam lagakar <br>
+              noch khatey hai sab <br> <br>
+
+              yeh duniya nakli hai, <br>
+              par dard asli hai <br>
+               sabko darkaar zaroor hai, <br>
+              par in zanjeero say hum majboor hai <br> <br>
+
+              zindagi ek hi naseeb hai, <br>
+              khulke jio wo kehtay hai <br>
+              par jeenay ka ek mol hai, <br>
+              jissay ab bhi har doosray ko chukaana hai <br><br>
+
+              yeh zindagi toh shayad inhi koshish may guzar jayegi <br>
+              ki shayad uss zindagi may, baat hi alag hogi <br> <br>
+
+              <br>
+      <nav>
+      
+         
+               <a href="#Writings" 
+          id="nextbox" class="previous-round" 
+          onclick="openPage('Writings', this, 'white')">&#8249;</a>  &nbsp &nbsp  &nbsp &nbsp
+
+    
+  </nav>
+</p>
+</div>
+
+<!----------------------------- -->
+
+    <div id="Contact"
+         class="tabcontent">
+      
+          <!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px"> <br><br><br>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LETS GET IN TOUCH!</span></h5>
+    <p>Drop down your details so i can get back to you</p>
+    
+    
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="email ID" required name="People"></p>
+      
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit"  onclick="message()" >SEND MESSAGE</button></p>
+      <p id="send" style="font-size: 0.9vw;color: grey;"></p>
+
+    </form>
+  </div>
+</div>
+
+      
+      <br>
+
+    </div>
+      <br>
+
+
+<!-- Footer -->
+
+ 
+<div class="footer">
+<footer style="font-size: 2.35vw;">
+<br>
+  <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+  <a href="mailto:mirza.sukaina@gmail.com"><i class="fa fa-envelope"></i></a>
+  <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.instagram.com/snapmirza/"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/sukaina-mirza/" ><i class="fa fa-linkedin"></i></a>
+  <p class="Copyrights" style="font-size: 1.2vw;">
+    Copyrights owned by Sukaina Mirza 
+    
+
+  </p>
+  <input onclick="myFunction()"
+       type="button" value="To dark"  id="mybutton" style="margin-left: 2%;margin-bottom:0; font-size: 1vw; margin-top: 0px;"></input> 
+
+</footer>
+</div></div>
+
+
+
+<script>
+
+  function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+function change() // no ';' here
+{
+    var elem = document.getElementById("mybutton");
+    if (elem.value=="To dark") 
+    {
+      elem.value = 'To light';
+      
+    if (elem.value=="To light") 
+    {
+      elem.value = 'To dark';
+    }
+    else elem.value = "To dark";
+    }
+
+
+}
+
+
+
+function myFunction() {
+
+
+  document.onclick = change()
+  
+   
+
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+
+
+   var elem = document.getElementById("mybutton");
+    if (elem.value=="To dark") {
+      elem.value = 'To light'
+      element.classList.toggle("light-mode");
+      }
+      else elem.value = "To dark"
+
+   
+
+  }
+function message() {
+  document.getElementById("send").innerHTML = "Messaging service is down, please email or DMs";
+}
+
+function myFunctiony() {
+  document.onclick = function()
+  {
+    document.getElementById("output").style.color = 'white';
+
+   var elemento = document.body;
+   elemento.classList.toggle("dark-mode");
+   elem.value = "To light";
+
+     }
+
+
+}
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "50px";
+  document.getElementById("main").style.marginLeft = "50px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+} 
+
+
+</script>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
